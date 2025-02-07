@@ -8,5 +8,13 @@ function carregaArquivo (container, arquivo)
     
 }
 
+function toggleMenu()
+{
+    
+    document.getElementById("sidebar").classList.toggle("show");
+    
+}
+
+
 carregaArquivo("container-sidebar", "sidebar.html");
 carregaArquivo("container-navbar", "navbar.html");

@@ -10,12 +10,37 @@
     
 }
 
-.sidebar a:hover
+.sidebar a:hover:link 
 {
     
-    background-color: #333;
+    color: #000EEE;
     
 }
+
+.sidebar a:hover:visited 
+{ 
+    
+    color: #551A8B;
+    
+}
+
+.sidebar a:hover:link:active, :visited:active 
+{
+    
+    color: #FF0000;
+    
+}
+
+.sidebar #Perfil 
+{
+    
+    font-size: 300%;
+    
+    align-items: center;
+    
+}
+
+
 
 @media (max-width: 995px) 
 {
