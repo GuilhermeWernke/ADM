@@ -1,18 +1,21 @@
-<aside class="sidebar d vh-100 p-3 bg-dark text-bg-dark text-center" id="sidebar">
+<aside class="sidebar d-flex flex-column vh-100 p-3 bg-dark text-bg-dark text-center" id="sidebar">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
     <h2>Painel</h2>
     
-    <div class="d-flex flex-column justify-content-between">
+    <div class="d-flex flex-column h-100">
         
-        <a href="#" id="Perfil"><i class="bi bi-person-circle"></i></a>
-        <a href="#" id="Login">Login</a>
-        <a href="#" id="Dashboard">Dashboard</a>
-        <a href="#" id="Pedidos">Pedidos</a>
-        <a href="#" id="Cadastro">Cadastro de Produtos</a>
-        <a href="#" id="Configuracao">Configuração</a>
-        <a href="#" id="Sair">Sair</a>
+        <a href="perfil.html" id="Perfil"><i class="bi bi-person-circle"></i></a> 
+        
+        <div class="conatiner d-flex flex-column justify-content-between flex-grow-1 ">
+            
+            <a href="login.html" id="Login" class="flex-grow-1">Login</a> 
+            <a href="dashboard.html" id="Dashboard" class="flex-grow-1">Dashboard</a> 
+            <a href="produtos.html" id="Produtos" class="flex-grow-1">Produtos Cadastrados</a> 
+            <a href="cadastro.html" id="Cadastro" class="flex-grow-1">Cadastro de Produtos</a>
+            
+        </div>
         
     </div>
     
